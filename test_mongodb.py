@@ -3,7 +3,7 @@ import certifi
 
 ca = certifi.where()
 
-uri = "mongodb+srv://bickyjha055_db_user:Admin123@cluster0.7elfao1.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://bickyjha055_db_user:<add_password>@cluster0.7elfao1.mongodb.net/?retryWrites=true&w=majority"
 
 try:
     client = MongoClient(
